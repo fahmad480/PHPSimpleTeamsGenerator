@@ -32,7 +32,7 @@ for ($i = 0; $i < count($people); $i++) {
 
 // echo json_encode($teammembers);
 for ($i = 1; $i <= count($teammembers); $i++) {
-    echo "tim " . $i . "\r\n";
+    echo "Team " . $i . "\r\n";
     for ($j = 0; $j < count($teammembers["tim " . $i]); $j++) {
         echo "-" . $teammembers["tim " . $i][$j] . "\r\n";
     }
